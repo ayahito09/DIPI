@@ -26,12 +26,11 @@
 .video2 {
     width: 30%; /* Mengatur lebar video agar masing-masing video menempati setengah dari lebar kontainer */
     height: 35.5%;
-    max-width: 30%; /* Maksimum lebar video */
-    max-height: 35%;
-    border-radius: 10px;
-    box-shadow: 0 0 0 2px rgb(255, 97, 35); /* Menambahkan outline stroke warna hitam */
+    border-radius: 9px;
+    box-shadow: 0 0 0 2px rgb(187, 187, 187); /* Menambahkan outline stroke warna hitam */
     position: relative;
-    margin: 10px; /* Jarak antara video */
+    margin: 5px; /* Jarak antara video */
+    aspect-ratio: 16 / 9;
 }
 
 /* Aturan media query untuk mengatur lebar video pada layar yang lebih kecil */
@@ -45,12 +44,12 @@
 
 .video1,
 .video2 {
-    margin-right: 10px; /* Memberikan jarak 10px antara video1 dan video2 */
+    margin-right: 0.8%; /* Memberikan jarak 10px antara video1 dan video2 */
     margin-top: 3%;
 }
 
 .video1 {
-    margin-left: 20px;
+    margin-left: 1.5%;
 }
 
 
